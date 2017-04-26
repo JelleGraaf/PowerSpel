@@ -1,0 +1,25 @@
+stages:
+- test
+- deploy
+
+.job_template: &job_definition  # Hidden key that defines an anchor named 'job_definition'
+  tags:
+  - windows
+  - powershell
+
+Prepare-env:
+  <<: *job_definition
+  stage: test
+  script:
+  - import-module PSModuleContainers
+  - Start-PSModuleContainer -Name PStest
+  only:
+  - /^.*-test$/
+deploy-module:
+  <<: *job_definition
+  stage: deploy
+  script:
+  - import-module PSModuleContainers
+  - Start-PSModuleContainer -Name PSdeploy
+  only:
+  - tags
