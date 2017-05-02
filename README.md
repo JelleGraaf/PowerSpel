@@ -1,6 +1,6 @@
 # Powershell module PowerSpell
 
-pentest game  
+PowerShell penetration test game  
   
-designed by jelle de graaf  
-framework built by thijs de meester  
+Designed by jelle de graaf  
+Framework built by thijs de meester  
