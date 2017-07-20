@@ -2,5 +2,5 @@
 
 PowerShell penetration test game  
   
-Designed by jelle de graaf  
-Framework built by thijs de meester  
+Designed by Jelle de Graaf  
+Framework built by Thijs de Meester  
