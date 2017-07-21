@@ -8,6 +8,6 @@ To play the game:
 2) Unzip the downloaded file to D:\Temp (or whatever location suits you).  
 3) Open a PowerShell window.  
 4) Import the module with the following command: Import-Module D:\Temp\powerspell-pentest\PowerSpel-PenTest\PowerSpel-PenTest.psd1  
-5) Start the game with the following comman: Start-PowerSpelPenTest.ps1  
+5) Start the game with the following command: Start-PowerSpelPenTest.ps1  
 
 The rest should be self-explanatory. Enjoy!
