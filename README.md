@@ -9,7 +9,7 @@ To play the game:
 
 The rest should be self-explanatory. Enjoy!
 
-
+  
 Designed by Jelle de Graaf  
 
 Many many thanks to Thijs de Meester for building the framework to start from and endless patience with all my little questions about how to code something.  
