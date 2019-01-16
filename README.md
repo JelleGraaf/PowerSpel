@@ -1,4 +1,4 @@
-PowerShell penetration test game  
+This project was me learning PowerShell from scratch by creating a text-based game. The game is a mud-like environment in which you perform a penetration test in the headquarters of my employer, OGD ict-diensten.
   
 To play the game:  
 1) Download the game from this repository.  
